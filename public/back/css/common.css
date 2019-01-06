@@ -98,8 +98,7 @@ ul {
 .lt_main {
     padding-left: 180px;
     padding-top: 50px;
-    height: 1200px;
-    background-color: pink;
+    /* height: 1200px; */
     transition: all 1s;
 }
 .lt_main.hidemenu {
@@ -132,5 +131,10 @@ ul {
 .echarts_right {
     width: 48%;
     height: 400px;
-    background-color: cyan;
+}
+
+.table.table-bordered th,
+.table.table-bordered td {
+    text-align: center;
+    vertical-align: middle;
 }
